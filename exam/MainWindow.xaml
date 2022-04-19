@@ -1,0 +1,18 @@
+﻿<Window x:Class="exam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Click1" Content="Входящие" HorizontalAlignment="Left" Height="29" Margin="43,56,0,0" VerticalAlignment="Top" Width="140" Click="Click1_Click"/>
+        <Button x:Name="Click2" Content="Сегодня" HorizontalAlignment="Left" Height="29" Margin="43,85,0,0" VerticalAlignment="Top" Width="140" Click="Click2_Click"/>
+        <Button x:Name="OnClick3" Content="Предстоящие" HorizontalAlignment="Left" Height="29" Margin="43,114,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBlock x:Name="textBlock"  Margin="283,33,0,0" TextWrapping="Wrap" Text=""/>
+        <TextBox HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Список задач" VerticalAlignment="Top" Width="782" />
+        
+
+    </Grid>
+</Window>
